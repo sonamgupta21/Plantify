@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex flex-col gap-10 md:flex-row">
         {footerData &&
           footerData.map((data) => (
-            <div className="h-20 w-full bg-white flex  p-4 rounded-lg items-center gap-4">
+            <div className="h-20 w-full bg-white flex  p-4 rounded-lg items-center gap-4" key={data.id}>
               <div className="w-10 h-10 max-w-[60px] rounded-full object-contain">
                 <img src={data.img} alt="" />
               </div>
