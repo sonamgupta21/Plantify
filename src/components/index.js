@@ -8,3 +8,4 @@ export { default as CartContainer } from "./CartContainer";
 export { default as CartItem } from "./CartItem";
 export { default as Loader } from "./Loader";
 export { default as CardContainer } from "./CardContainer";
+export { default as Footer } from "./Footer";

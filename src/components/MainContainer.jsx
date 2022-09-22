@@ -1,7 +1,13 @@
 import { motion } from "framer-motion";
 import React, { useState, useEffect } from "react";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
-import { RowContainer, CartContainer, HomeContainer, MenuContainer } from ".";
+import {
+  RowContainer,
+  CartContainer,
+  Footer,
+  HomeContainer,
+  MenuContainer,
+} from ".";
 import { useStateValue } from "../context/StateProvider";
 
 const MainContainer = () => {
@@ -11,9 +17,8 @@ const MainContainer = () => {
   useEffect(() => {}, [scrollValue, cartShow]);
 
   return (
-    <div className="flex flex-col items-center justify-center w-full h-auto ">
+    <div className="flex flex-col items-center justify-center w-full h-auto">
       <HomeContainer />
-
       <section className="w-full my-6">
         <div className="w-full flex items-center justify-between">
           <p className="text-2xl font-semibold capitalize text-headingColor relative before:absolute before:rounded-lg before:w-32 before:content-start before:h-1 before:-bottom-2 before: left-0 before:bg-gradient-to-tr from-green-400 to-green-600 ">
@@ -42,8 +47,8 @@ const MainContainer = () => {
           scrollValue={scrollValue}
         />
       </section>
-
       <MenuContainer />
+      <Footer />
       {cartShow && <CartContainer />}
     </div>
   );

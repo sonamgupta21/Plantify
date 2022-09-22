@@ -68,3 +68,30 @@ export const categories = [
     urlParamName: "air-purifying",
   },
 ];
+
+export const footerData = [
+  {
+    id: 1,
+    img: "https://cdn.shopify.com/s/files/1/0284/2450/files/plant_60x.png?v=1586856424",
+    header: "100,000+ Plants Shipped",
+    desc: "Found great new homes!",
+  },
+  {
+    id: 2,
+    img: "https://cdn.shopify.com/s/files/1/0284/2450/files/cash_on_delivery_60x.png?v=1586857051",
+    header: "Cash on Delivery",
+    desc: "Available across India!",
+  },
+  {
+    id: 3,
+    img: "https://cdn.shopify.com/s/files/1/0284/2450/files/support_60x.png?v=1586944291",
+    header: "Fast Delivery",
+    desc: "Packaged with Care and Love!",
+  },
+  {
+    id: 4,
+    img: "https://cdn.shopify.com/s/files/1/0284/2450/files/delivery_60x.png?v=1586943729",
+    header: "Help & Support",
+    desc: "Friendly & Quick!",
+  },
+];

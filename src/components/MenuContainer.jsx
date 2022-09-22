@@ -8,7 +8,7 @@ const MenuContainer = () => {
   const [{ plantItems }, dispatch] = useStateValue();
 
   return (
-    <section className="w-full mb-6" id="menu">
+    <section className="w-full mb-6 pt-24" id="ourPlants">
       <div className="w-full flex flex-col items-center justify-center">
         <p className="text-2xl font-semibold capitalize text-headingColor relative before:absolute before:rounded-lg before:w-32 before:content-start before:h-1 before:-bottom-2 before:left-0 before:bg-gradient-to-tr from-green-400 to-green-600 transition-all ease-in-out duration-100 mr-auto mb-4">
           What are you looking for?

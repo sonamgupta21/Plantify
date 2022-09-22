@@ -1,6 +1,5 @@
 import React from "react";
 import { RiPlantFill } from "react-icons/ri";
-
 import { heroData } from "../utils/data";
 import heroimage from "../img/Frame 1.png";
 const HomeContainer = () => {
@@ -17,15 +16,15 @@ const HomeContainer = () => {
           </div>
         </div>
         <p className="text-[2.5rem] lg:text-[4.5rem] font-bold text-headingColor tracking-wide">
-          We love helping you safe the {"    "}
+          We love helping you safe the
           <span className="text-green-600 text-[3rem] lg:text-[5rem]">
+            {" "}
             Earth
           </span>
         </p>
         <p className="text-base text-textColor text-center md:text-left md:w-[80%]">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          incidunt omnis sint beatae sit illo quisquam aut cumque magnam
-          consequatur dolorum itaque facere quos quaerat
+          Provide your house & office space with right plants and let them make
+          a positive impact on your environment.
         </p>
 
         <button
